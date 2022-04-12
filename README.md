@@ -10,9 +10,8 @@ Our tech stack is:
   * Typescript
   * TailwindCSS
   * React query + axios
-  * Cypress (for e2e)
-  * React testing library (for unit test)
-## Description 
+  * Cypress (for e2e including unit testing)
+]## Description 
 
 At Lhotse we have to find the most efficient and simple ways for the users to interact with their supplier databases. One of the features created for this purpose is the **tag** based clasification.
 
@@ -60,4 +59,4 @@ const suggestedTagsCertifications = ['ISO 9001', 'Vegan', 'Organic']
 5. If the user instead presses *tab*, it should add the tag **and** open a new input to add another tag.
 
 #### Notes
-At the beginning of this test we've described our stack. But feel free to add any extra tools or libraries you see fit.
+Feel free to add any extra tools or libraries you see fit.
